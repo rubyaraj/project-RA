@@ -5,7 +5,7 @@ n=0
 
 # su input values
 # second change
-for num in sys.stdin:
+for num in open('data.txt'):
 	sum += float(num)
 	n += 1
 
